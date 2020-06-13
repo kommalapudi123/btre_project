@@ -7,7 +7,7 @@ def contact(request):
   if request.method == 'POST':
     listing_id = request.POST['listing_id']
     listing = request.POST['listing']
-    name = request.POST['name']
+    name = request.POST['num']
     email = request.POST['email']
     phone = request.POST['phone']
     message = request.POST['message']
